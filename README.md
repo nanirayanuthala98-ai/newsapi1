@@ -1,4 +1,4 @@
-[Live Link] 
+
 
 # News API Overview
 

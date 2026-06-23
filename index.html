@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>📰 DAILY NEWS</h1>
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search News..."
+    >
+
+    <button id="searchBtn">Search</button>
+</header>
+
+<div class="categories">
+    <button data-category="general">General</button>
+    <button data-category="business">Business</button>
+    <button data-category="sports">Sports</button>
+    <button data-category="technology">Technology</button>
+    <button data-category="health">Health</button>
+</div>
+
+<div id="newsContainer"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

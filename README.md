@@ -1,4 +1,4 @@
-[Live Link] ("https://www.india.com/")
+[Live Link] 
 
 # News API Overview
 
